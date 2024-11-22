@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.conteiner h1, .conteiner h2 {
+    font-family: "Oswald", sans-serif;
+}
+
+.conteiner {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgb(154, 5, 5);
+}
+
+header .conteiner {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-weight: normal;
+}
+
+header h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+header div h2 {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+header nav li {
+    text-decoration: none;
+    display: inline;
+    margin: 8px;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.conteiner img {
+    height: 300px;
+}
+
+.conteiner h2 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+}
+
+.conteiner p, h2 {
+    padding: 8px;
+}
+
+#mundial {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+#liberta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#contato {
+    margin-top: 24px;
+    background-color: rgb(154, 5, 5);
+    color: white;
+}
+
+#contato h2 {
+    display: flex;
+    justify-content: center;
+}
+
+#contato .conteiner {
+    display: block;
+    padding: 16px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+form input, 
+form textarea, 
+form button {
+    display: block;
+    padding: 6px 0;
+    margin: 6px 0;
+    width: 250px;
+}
+
+form textarea { 
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    color: rgb(154, 5, 5);
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+form button:hover {
+    background-color: rgb(171, 171, 171);
+    color: red;
+}
+
+iframe {
+    width: 600px;
+    height: 300px; 
+    border: 0;
+}
+
+footer {
+    color: rgb(154, 5, 5);
+    padding: 16px 0;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+}
